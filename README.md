@@ -1,11 +1,11 @@
 # Sushi Detection model with Tensorflow
 This is Just example for demo. <br>
-Last updated: 9/26/2018 with TensorFlow v1.12 <br>
-## Before you start <br>
+Last updated: 3/28/2019 with TensorFlow v1.12 <br>
+## Before you start.... <br>
 ### Setting Up DLVM on Azure (Ubuntu)
-
+Please following [the Quickstarts.](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm)
 ### Tensorflow Object Detection
-Basically following [the installation](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
+Basically following [the installation.](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 
 #### 1. Clone the repo - Tensorflow models
 https://github.com/tensorflow/models.git <br>
@@ -15,9 +15,9 @@ Any SSH and telnet clients are fine! <br>
 Here is [the version list.](https://www.tensorflow.org/install/source#tested_build_configurations)
 
 `$python --version` <br>
-Should be "Python 3.5.5 :: Anaconda custom (64-bit)" pre-installed on DLVM <br>
+Should be "Python 3.5.5 :: Anaconda custom (64-bit)" pre-installed on DLVM. <br>
 
-You can also check nvidia driver version <br>
+You can also check nvidia driver version. <br>
 `$cat /proc/driver/nvidia/version` <br>
 
 
@@ -59,7 +59,7 @@ From tensorflow/models/research/ <br>
 <br>
 If showing "OK" that means you successfully completed the installation! <br>
 <br>
-### 8. Access to Jupyter Notebook
+#### 8. Access to Jupyter Notebook
 `$jupyter notebook --ip=0.0.0.0 --port=8888` <br>
 Copy the URL like "http://*****:8888/?token=**************" <br>
 
