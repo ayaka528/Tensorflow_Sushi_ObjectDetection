@@ -1,5 +1,5 @@
 # Sushi Detection model with Tensorflow
-This is Just example for demo. <br>
+This is just an example for demo. <br>
 Last updated: 3/28/2019 with TensorFlow v1.12 <br>
 ## Before you start.... <br>
 ### Setting Up DLVM on Azure (Ubuntu)
