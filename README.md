@@ -90,8 +90,8 @@ You need to split the csv file into two: train.csv and test.csv before the next 
 <br>
 ## C. Train and Evaluate model <br>
 ### Train model <br>
-`$python train.py --logtostderr --pipeline_config_path=sushi_restnet_101.config --train_dir=checkpoints_sushi`<br>
+`$python train.py --logtostderr --pipeline_config_path=sushi_resnet_101.config --train_dir=checkpoints_sushi`<br>
 ### Evaluate model <br>
-`$python eval.py --logtostderr --pipeline_config_path=sushi_restnet_101.config --checkpoint_dir=checkpoints_sushi --eval_dir=checkpoint_sushi`<br>
+`$python eval.py --logtostderr --pipeline_config_path=sushi_resnet_101.config --checkpoint_dir=checkpoints_sushi --eval_dir=checkpoint_sushi`<br>
 ### Tensorboard <br>
 `$tensorboard --logdir=checkpoints_sushi --port 6008` <br>
